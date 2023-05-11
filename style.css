@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+  margin: 0
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Arial";
+}
+
+.riquadro-body{
+  width: 63%;
+  height: 85%;
+  margin: auto;
+  margin-top: 3%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 70px;
+  }
+
+/* Logo e Titolo */
+  .logo-allineato{
+    text-align: center;
+  }
+
+  .logo{
+    width: 200px;
+  }
+
+  #titolo{
+    color: rgb(0,221,0);
+    text-align: center;
+    font-size: 24px;
+  }
+
+/* Barra bottoni */
+.contenitore-bottoni{
+  width: 100%;
+  height: 30px;
+  background-color: rgb(0, 221, 0);
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+  }
+
+.button{
+  font-size: 10px;
+}
+
+/* Elenco monopattini */
+.modelli{
+  color: white;
+  }
+
+.descrizioni{
+    color: rgb(225,225,204);
+    font-size: 12px;
+    font-family: "Verdana";
+    line-height: 1.5;
+  }
+
+#barra-carica-gino{
+    background-color: rgb(245,180,83);
+    height: 23px;
+    width: 270px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+
+#barra-carica-mike{
+    background-color: rgb(0,221,0) ;
+    height: 23px;
+    width: 480px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    }
+
+#barra-carica-fede{
+        background-color: rgb(190,65,65);
+        height: 23px;
+        width: 130px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        margin-top: 5px;
+      }
